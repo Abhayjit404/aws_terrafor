@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form exercise</title>
+</head>
+<body>
+	<h1 required>Register</h1>
+
+	<form>
+		<div>
+			<label for="1name">First Name</label>
+			<input id="1name" type="text" name="myName" placeholder="abhay" required>
+			<label for="2name">Last Name</label>
+			<input id="2name" type="text" name="Lastname" placeholder="sharma" required>
+		</div><br>
+		<div>
+			Male<input type="radio" name="gender" value="male" required>
+			Female <input type="radio" name="gender" value="Femal" required>
+			Other <input type="radio" name="gender" value="others" required>
+		</div><br>
+		<div>
+			<label for="email">Email:</label>
+			<input id="email" type="email" name="mail" placeholder="example@gmail.com" required>
+			<label for="pswd">Password:</label>
+			<input id="pswd" type="password" name="passwd" placeholder="password" pattern=".{8,12}" required title="password must be 8 to 12 charactors"> 
+		</div><br>
+		<div>
+			<label for="dob">Birthday:</label>
+			<input id="dob" type="date" name="dob" required>
+		</div><br>
+		<div>
+			I agree to the tearm and condition<input type="checkbox" name="agree">
+		</div><br>
+		<div>
+			<input type="submit" name="submit">
+		</div><br>
+
+		<div>
+			<label>
+				birthday:
+				<select>
+					<option>month</option>
+					<option>jan</option>
+					<option>fab</otion>
+					<option>march</option>
+					<option>april</option>
+					<option>may</option>
+					<option>june</option>
+					<option>july</option>
+					<option>august</option>
+					<option>sept</option>
+					<option>oct</option>
+					<option>nov</option>
+					<option>dec</option>
+				</select>
+				<select>
+					<option>day</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>14</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+					<option>11</option>
+					<option>12</option>
+					<option>13</option>
+				</select>
+				<select>
+					<option>year</option>
+					<option>98</option>
+					<option>99</option>
+					<option>200</option>
+				</select>
+			</label>
+			<button>go</button>
+			
+		</div>
+
+	</form>
+
+</body>
+</html>
